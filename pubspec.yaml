@@ -42,6 +42,7 @@ dev_dependencies:
   args:
   grinder: ^0.8.0
   intl_translation:
+  msix: ^0.0.10
   pedantic: ^1.9.0
   string_scanner: ^1.0.5
 
@@ -249,3 +250,14 @@ flutter:
       fonts:
         - asset: packages/flutter_gallery_assets/fonts/GalleryIcons.ttf
 
+msix_config:
+  display_name: Gallery
+  publisher_name: Flutter
+  identity_name: Google.Flutter.Gallery
+  msix_version: 1.0.0.0
+  # certificate_subject: CN=MyName
+  # logo_path: packages/flutter_gallery_assets/assets/logo/flutter_logo_color.png
+  # start_menu_icon_path: packages/flutter_gallery_assets/assets/logo/flutter_logo_color.png
+  # tile_icon_path: packages/flutter_gallery_assets/assets/logo/flutter_logo_color.png
+  icons_background_color: ffffff
+  architecture: x64
